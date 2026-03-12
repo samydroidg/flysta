@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root{
+  --primary: #1F3A5F;
+  --accent: #1FA7A3;
+  --highlight: #49C5C1;
+  --background: #FFFFFF;
+  --section-background: #F4F6F8;
+  --text: #282F36;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #2fa4a9, #6fd3c4);
+  border-radius: 10px;
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #1c8c90, #5ac0b2);
+}
+
+.font-poppins{
+  font-family: "Poppins", "sans-serif";
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+}
+
+.text-outline {
+  -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+  color: transparent;
+}
