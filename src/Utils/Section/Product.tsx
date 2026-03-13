@@ -55,7 +55,6 @@ function Product() {
                 className="border border-gray-300 px-8 py-3 rounded-lg hover:bg-gray-100 transition"
                 onClick={() => {
                   window.scrollTo(0, 0);
-                  navigate("/products");
                 }}
               >
                 Learn More
