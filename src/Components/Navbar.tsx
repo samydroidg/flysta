@@ -20,9 +20,9 @@ function Navbar() {
 
           {[
             { name: "Home", link: "/" },
-            { name: "About", link: "/#about" },
             { name: "Products", link: "/products" },
             { name: "Pricing", link: "/pricing" },
+            { name: "Career", link: "/career" },
           ].map((item, index) => (
             <li key={index}>
               <Link
@@ -71,9 +71,9 @@ function Navbar() {
         <ul className="flex flex-col items-center gap-6 text-lg">
 
           <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
-          <Link to="/#about" onClick={() => setMenuOpen(false)}>About</Link>
           <Link to="/products" onClick={() => setMenuOpen(false)}>Products</Link>
           <Link to="/pricing" onClick={() => setMenuOpen(false)}>Pricing</Link>
+          <Link to="/career" onClick={() => setMenuOpen(false)}>Career</Link>
 
           <Link to="/contact" onClick={() => setMenuOpen(false)}>
             <button className="bg-[#2fa4a9] text-white px-6 py-2.5 rounded-xl shadow-md">

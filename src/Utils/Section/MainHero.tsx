@@ -46,9 +46,7 @@ function MainHero() {
           </h1>
 
           <p className="mt-6 text-gray-600 max-w-xl text-lg leading-relaxed">
-            Flysta helps logistics companies manage transportation,
-            optimize routes, track shipments in real-time and automate
-            operations using intelligent software.
+            Flysta powers logistics companies to manage transportation, track shipments in real time, automate operations, and gain real-time insights and analytics across their supply chain.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

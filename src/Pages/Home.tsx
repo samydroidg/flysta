@@ -1,5 +1,5 @@
 import Features from "../Components/Features"
-import About from "../Utils/Section/About"
+import About from "../Utils/Section/Industries"
 import MainHero from "../Utils/Section/MainHero"
 import Product from "../Utils/Section/Product"
 

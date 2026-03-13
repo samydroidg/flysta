@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BookDemoForm from "../Forms/BookDemoForm";
-import image from "../../assets/image.png";
+import image from "../../assets/Hero-image2.png";
 
 function Product() {
   const [openDemo, setOpenDemo] = useState(false);
