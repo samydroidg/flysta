@@ -5,7 +5,7 @@ function Pricing() {
       {/* HEADER */}
       <div className="max-w-225 mx-auto text-center px-6">
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-900">
-          Simple Pricing for Logistics Teams
+          Simple Pricing for Flysta TMS
         </h1>
 
         <p className="mt-6 text-gray-600 text-lg">

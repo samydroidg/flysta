@@ -1,3 +1,4 @@
+import Features from "../Components/Features"
 import About from "../Utils/Section/About"
 import MainHero from "../Utils/Section/MainHero"
 import Product from "../Utils/Section/Product"
@@ -6,6 +7,7 @@ function Home() {
   return (
     <>
       <MainHero />
+      <Features />
       <About />
       <Product />
     </>

@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react"
 
-import img1 from "../assets/ShipmentAndJobManagement.png"
-import img2 from "../assets/ManifestAndDocumentManagement.png"
-import img3 from "../assets/DigitalPODCollection.png"
-import img4 from "../assets/MasterDataManagement.png"
-import img5 from "../assets/SimpleAndIntuitiveInterface.png"
-import img6 from "../assets/Real-TimeDeliveryUpdates.png"
-import img7 from "../assets/IntelligentAlertsAndNotifications.png"
-import img8 from "../assets/AdvanceDashboardAndAnalytics.png"
-import img9 from "../assets/OperationalWorkflowAutomation.png"
-import img10 from "../assets/ScalableLogisticsPlatform.png"
+import img1 from "../assets/TMS/ShipmentAndJobManagement.png"
+import img2 from "../assets/TMS/ManifestAndDocumentManagement.png"
+import img3 from "../assets/TMS/DigitalPODCollection.png"
+import img4 from "../assets/TMS/MasterDataManagement.png"
+import img5 from "../assets/TMS/SimpleAndIntuitiveInterface.png"
+import img6 from "../assets/TMS/Real-TimeDeliveryUpdates.png"
+import img7 from "../assets/TMS/IntelligentAlertsAndNotifications.png"
+import img8 from "../assets/TMS/AdvanceDashboardAndAnalytics.png"
+import img9 from "../assets/TMS/OperationalWorkflowAutomation.png"
+import img10 from "../assets/TMS/ScalableLogisticsPlatform.png"
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10]
 
