@@ -1,7 +1,7 @@
 import { useState } from "react";
 import BookDemoForm from "../Forms/BookDemoForm";
 import image from "../../assets/Hero-image2.png";
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Product() {
   const [openDemo, setOpenDemo] = useState(false);

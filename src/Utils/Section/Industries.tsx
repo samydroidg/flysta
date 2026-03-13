@@ -76,7 +76,7 @@ className="group p-8 rounded-2xl border border-gray-200 bg-white hover:border-[#
 </p>
 
 {/* HOVER LINE */}
-<div className="mt-6 h-[2px] w-0 bg-[#2fa4a9] group-hover:w-full transition-all duration-300"></div>
+<div className="mt-6 h-0.5 w-0 bg-[#2fa4a9] group-hover:w-full transition-all duration-300"></div>
 
 </div>
 

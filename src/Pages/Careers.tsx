@@ -13,8 +13,8 @@ return (
 
 <section className="pt-36 pb-28 relative">
 
-<div className="absolute w-[600px] h-[600px] bg-[#2fa4a9]/10 blur-[140px] rounded-full -top-40 -left-40"></div>
-<div className="absolute w-[500px] h-[500px] bg-[#243b55]/10 blur-[140px] rounded-full bottom-0 right-0"></div>
+<div className="absolute w-150 h-150 bg-[#2fa4a9]/10 blur-[140px] rounded-full -top-40 -left-40"></div>
+<div className="absolute w-125 h-125 bg-[#243b55]/10 blur-[140px] rounded-full bottom-0 right-0"></div>
 
 <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center relative">
 

@@ -10,10 +10,6 @@ import BookDemoForm from "../Utils/Forms/BookDemoForm";
 function FlystaTMS() {
   const [openDemo, setOpenDemo] = useState(false);
 
-  const goToTMS = () => {
-    window.location.href = "https://skytrans.co.in";
-  };
-
   return (
     <div className="bg-white text-gray-800">
       {/* HERO */}
