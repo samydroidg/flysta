@@ -21,7 +21,7 @@ function Navbar() {
           {[
             { name: "Home", link: "/" },
             { name: "Products", link: "/products" },
-            { name: "Pricing", link: "/pricing" },
+            // { name: "Pricing", link: "/pricing" },
             { name: "Career", link: "/career" },
           ].map((item, index) => (
             <li key={index}>
@@ -72,7 +72,7 @@ function Navbar() {
 
           <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link to="/products" onClick={() => setMenuOpen(false)}>Products</Link>
-          <Link to="/pricing" onClick={() => setMenuOpen(false)}>Pricing</Link>
+          {/* <Link to="/pricing" onClick={() => setMenuOpen(false)}>Pricing</Link> */}
           <Link to="/career" onClick={() => setMenuOpen(false)}>Career</Link>
 
           <Link to="/contact" onClick={() => setMenuOpen(false)}>

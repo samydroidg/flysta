@@ -17,9 +17,9 @@ function Contact() {
           </p>
 
           <div className="mt-8 space-y-4 text-gray-700">
-            <p>📧 support@flysta.ai</p>
-            <p>📍 India</p>
-            <p>📞 +91 99999 99999</p>
+            <p className="font-bold">Ishan Murjhani</p>
+            <p>📧 ishan.murjhani@gmail.com</p>
+            <p>📞 +91 98936 27301</p>
           </div>
         </div>
 

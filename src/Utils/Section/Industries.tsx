@@ -1,29 +1,42 @@
+
 function Industries() {
 
 const industries = [
 {
-title: "Transport Companies",
-desc: "Manage fleet operations, shipments and delivery workflows from one centralized logistics platform."
+title: "Healthcare",
+desc: "Manage the transportation of medical supplies, equipment, and pharmaceutical shipments with reliable tracking, delivery visibility, and operational control."
 },
 {
-title: "Fleet Operators",
-desc: "Track vehicles in real time, optimize routes and monitor driver performance easily."
+title: "Transportation",
+desc: "Digitize fleet operations, shipment management, and delivery workflows with a centralized platform built for modern transport businesses."
 },
 {
-title: "3PL Logistics",
-desc: "Coordinate multiple clients, shipments and warehouse operations efficiently."
+title: "Logistics",
+desc: "Streamline logistics operations from shipment booking to delivery confirmation with complete operational visibility and automated workflows."
 },
 {
-title: "E-commerce Delivery",
-desc: "Handle high volume deliveries with automated dispatching and tracking."
+title: "Supply Chain",
+desc: "Connect transportation, warehousing, and distribution operations into a single intelligent platform for better planning and execution."
 },
 {
-title: "Freight Forwarders",
-desc: "Track cargo movement and manage international logistics workflows."
+title: "Third-Party Logistics (3PL)",
+desc: "Empower 3PL providers with tools to manage multiple clients, track shipments, generate manifests, and deliver real-time operational insights."
 },
 {
-title: "Warehouse Operators",
-desc: "Connect warehouse operations with transportation and shipment tracking."
+title: "Agriculture",
+desc: "Optimize agri supply chains by managing crop movement, warehouse dispatches, and delivery logistics with real-time operational tracking."
+},
+{
+title: "Warehousing",
+desc: "Manage warehouse dispatches, shipment allocation, and inventory movement while seamlessly connecting warehouse operations with transportation workflows."
+},
+{
+    title: "FMCG Distribution",
+    desc: "Track high-volume goods movement across distributors, warehouses, and retailers with operational dashboards and delivery intelligence."
+},
+{
+    title: "E-commerce Fulfillment",
+    desc: "Manage order shipments, delivery workflows, and distribution networks efficiently to meet modern e-commerce fulfillment demands."
 }
 ]
 

@@ -29,7 +29,7 @@ Tell us about yourself and we will get in touch.
 </p>
 
 <form
-action="https://formsubmit.co/gouravojha9999@gmail.com"
+action="https://formsubmit.co/ishan.murjhani@gmail.com"
 method="POST"
 className="mt-6 space-y-4"
 >

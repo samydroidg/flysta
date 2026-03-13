@@ -26,9 +26,7 @@ function FlystaTMS() {
             </h1>
 
             <p className="mt-6 text-gray-600 text-lg max-w-xl">
-              A modern logistics operating platform designed to help transport
-              companies plan shipments, track deliveries in real time, manage
-              fleets and automate operations from a unified dashboard.
+              Flysta powers logistics companies to manage transportation, track shipments in real time, automate operations, and gain real-time insights and analytics across their supply chain.
             </p>
 
             <div className="mt-10 flex gap-5">
@@ -37,13 +35,6 @@ function FlystaTMS() {
                 className="bg-[#2fa4a9] hover:bg-[#258e92] transition text-white px-8 py-3 rounded-xl shadow-lg"
               >
                 Book Demo
-              </button>
-
-              <button
-                onClick={goToTMS}
-                className="border border-gray-300 hover:border-black transition px-8 py-3 rounded-xl"
-              >
-                See Platform
               </button>
             </div>
           </div>
@@ -122,7 +113,7 @@ function FlystaTMS() {
 
       <section className="py-28">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
-          <img src={shipment} className="rounded-3xl shadow-2xl order-1 lg:order-2" />
+          <img src={shipment} className="rounded-3xl shadow-2xl order-1 lg:order-1" />
 
           <div className="order-2 lg:order-1">
             <h2 className="text-3xl font-bold">Shipment & Job Management</h2>

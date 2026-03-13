@@ -1,6 +1,7 @@
 import { useState } from "react";
 import BookDemoForm from "../Forms/BookDemoForm";
 import image from "../../assets/Hero-image2.png";
+import { Link, Navigate } from "react-router-dom";
 
 function Product() {
   const [openDemo, setOpenDemo] = useState(false);
@@ -11,10 +12,8 @@ function Product() {
       id="products"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
-
         {/* LEFT IMAGE */}
         <div className="flex justify-center relative group">
-
           <div className="absolute inset-0 bg-linear-to-r from-[#2fa4a9]/10 to-[#6fd3c4]/10 blur-2xl opacity-0 group-hover:opacity-100 transition"></div>
 
           <img
@@ -27,7 +26,6 @@ function Product() {
 
         {/* RIGHT CONTENT */}
         <div className="text-center lg:text-left">
-
           <h2 className="font-bold text-gray-900 leading-tight text-3xl sm:text-4xl lg:text-5xl">
             Scale Your Logistics
             <br />
@@ -35,16 +33,14 @@ function Product() {
           </h2>
 
           <p className="mt-6 text-gray-600 max-w-xl mx-auto lg:mx-0 text-base sm:text-lg lg:text-xl leading-relaxed">
-            Plan loads, track shipments in real time, optimize routes,
-            automate billing, and gain complete visibility across your
-            transport network. Flysta Transportation Management System
-            helps logistics teams operate faster, smarter, and with full
-            operational clarity.
+            Plan loads, track shipments in real time, optimize routes, automate
+            billing, and gain complete visibility across your transport network.
+            Flysta Transportation Management System helps logistics teams
+            operate faster, smarter, and with full operational clarity.
           </p>
 
           {/* CTA */}
-          <div className="mt-8">
-
+          <div className="mt-8 gap-4 flex">
             <button
               onClick={() => setOpenDemo(true)}
               className="bg-linear-to-r from-[#2fa4a9] to-[#6fd3c4]
@@ -54,14 +50,22 @@ function Product() {
             >
               Book a Demo
             </button>
-
+            <Link to="/products">
+              <button
+                className="border border-gray-300 px-8 py-3 rounded-lg hover:bg-gray-100 transition"
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                  navigate("/products");
+                }}
+              >
+                Learn More
+              </button>
+            </Link>
           </div>
         </div>
-
       </div>
 
       <BookDemoForm isOpen={openDemo} onClose={() => setOpenDemo(false)} />
-
     </section>
   );
 }

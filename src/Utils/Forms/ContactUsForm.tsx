@@ -3,7 +3,7 @@
 function ContactUsForm() {
   return (
     <form
-      action="https://formsubmit.co/gouravojha9999@gmail.com"
+      action="https://formsubmit.co/ishan.murjhani@gmail.com"
       method="POST"
       className="space-y-6"
     >

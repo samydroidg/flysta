@@ -84,36 +84,11 @@ function Footer() {
           </h3>
 
           <ul className="space-y-3">
-            <li>support@flysta.ai</li>
-            <li>India</li>
-            <li>+91 99999 99999</li>
+            <li className="font-bold">Ishan Murjhani</li>
+            <li>📧 ishan.murjhani@gmail.com</li>
+            <li>📞 +91 98936 27301</li>
           </ul>
 
-          {/* SOCIAL */}
-          <div className="flex gap-4 mt-6">
-
-            <a
-              href="#"
-              className="bg-white/10 p-2 rounded-lg hover:bg-white/20 transition"
-            >
-              🌐
-            </a>
-
-            <a
-              href="#"
-              className="bg-white/10 p-2 rounded-lg hover:bg-white/20 transition"
-            >
-              💼
-            </a>
-
-            <a
-              href="#"
-              className="bg-white/10 p-2 rounded-lg hover:bg-white/20 transition"
-            >
-              🐦
-            </a>
-
-          </div>
         </div>
 
       </div>
