@@ -72,7 +72,7 @@ function Navbar() {
 
           <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link to="/#about" onClick={() => setMenuOpen(false)}>About</Link>
-          <Link to="/#products" onClick={() => setMenuOpen(false)}>Products</Link>
+          <Link to="/products" onClick={() => setMenuOpen(false)}>Products</Link>
           <Link to="/pricing" onClick={() => setMenuOpen(false)}>Pricing</Link>
 
           <Link to="/contact" onClick={() => setMenuOpen(false)}>
