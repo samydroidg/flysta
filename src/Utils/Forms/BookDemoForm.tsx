@@ -40,6 +40,7 @@ function DemoModal({ isOpen, onClose }: DemoModalProps) {
           <input type="hidden" name="_subject" value="New Demo Booking - Flysta" />
           <input type="hidden" name="_next" value="/" />
 
+          {/* NAME */}
           <input
             type="text"
             name="name"
@@ -48,6 +49,7 @@ function DemoModal({ isOpen, onClose }: DemoModalProps) {
             className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#2fa4a9]"
           />
 
+          {/* EMAIL */}
           <input
             type="email"
             name="email"
@@ -56,6 +58,17 @@ function DemoModal({ isOpen, onClose }: DemoModalProps) {
             className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#2fa4a9]"
           />
 
+          {/* MOBILE NUMBER */}
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Mobile Number"
+            required
+            pattern="[0-9]{10}"
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#2fa4a9]"
+          />
+
+          {/* COMPANY */}
           <input
             type="text"
             name="company"
@@ -63,6 +76,7 @@ function DemoModal({ isOpen, onClose }: DemoModalProps) {
             className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#2fa4a9]"
           />
 
+          {/* MESSAGE */}
           <textarea
             name="message"
             placeholder="Tell us about your logistics needs"
@@ -70,6 +84,7 @@ function DemoModal({ isOpen, onClose }: DemoModalProps) {
             className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#2fa4a9]"
           />
 
+          {/* SUBMIT BUTTON */}
           <button
             type="submit"
             className="w-full bg-[#2fa4a9] text-white py-3 rounded-xl font-semibold hover:shadow-lg transition"

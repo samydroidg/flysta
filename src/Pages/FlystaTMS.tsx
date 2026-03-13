@@ -122,9 +122,9 @@ function FlystaTMS() {
 
       <section className="py-28">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
-          <img src={shipment} className="rounded-3xl shadow-2xl" />
+          <img src={shipment} className="rounded-3xl shadow-2xl order-1 lg:order-2" />
 
-          <div>
+          <div className="order-2 lg:order-1">
             <h2 className="text-3xl font-bold">Shipment & Job Management</h2>
 
             <p className="mt-4 text-gray-600">
@@ -147,7 +147,7 @@ function FlystaTMS() {
 
       <section className="py-28 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
-          <div>
+          <div className="order-2 lg:order-1">
             <h2 className="text-3xl font-bold">Real-Time Delivery Tracking</h2>
 
             <p className="mt-4 text-gray-600">
@@ -164,7 +164,7 @@ function FlystaTMS() {
             </ul>
           </div>
 
-          <img src={tracking} className="rounded-3xl shadow-2xl" />
+          <img src={tracking} className="rounded-3xl shadow-2xl order-1 lg:order-1" />
         </div>
       </section>
 
@@ -172,9 +172,9 @@ function FlystaTMS() {
 
       <section className="py-28">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
-          <img src={analytics} className="rounded-3xl shadow-2xl" />
+          <img src={analytics} className="rounded-3xl shadow-2xl order-1 lg:order-1" />
 
-          <div>
+          <div className="order-2 lg:order-1">
             <h2 className="text-3xl font-bold">
               Logistics Analytics & Insights
             </h2>
@@ -199,7 +199,7 @@ function FlystaTMS() {
 
       <section className="py-28 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
-          <div>
+          <div className="order-2 lg:order-1">
             <h2 className="text-3xl font-bold">
               Operational Workflow Automation
             </h2>
@@ -218,7 +218,7 @@ function FlystaTMS() {
             </ul>
           </div>
 
-          <img src={workflow} className="rounded-3xl shadow-2xl" />
+          <img src={workflow} className="rounded-3xl shadow-2xl order-1 lg:order-1" />
         </div>
       </section>
 
