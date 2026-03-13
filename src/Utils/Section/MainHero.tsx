@@ -1,5 +1,6 @@
 import { useState } from "react";
-import BookDemoForm from "../../Components/BookDemoForm";
+import BookDemoForm from "../Forms/BookDemoForm";
+import image from "../../assets/ProductDashboardImage.jpg"
 
 function MainHero() {
 
@@ -35,11 +36,11 @@ function MainHero() {
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
 
-            <button onClick={() => setOpenDemo(true)} className="bg-white text-black px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition">
+            <button onClick={() => setOpenDemo(true)} className="bg-white text-black px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition cursor-pointer">
               Book a Demo
             </button>
 
-            <button className="border border-white px-8 py-3 rounded-xl hover:bg-white hover:text-black transition">
+            <button className="border border-white px-8 py-3 rounded-xl hover:bg-white hover:text-black transition cursor-pointer">
               About Us
             </button>
 
@@ -62,7 +63,7 @@ function MainHero() {
           >
 
             <div className="bg-white/20 h-full rounded-xl flex items-center justify-center text-white text-lg font-medium">
-              Product Dashboard Preview
+              <img src={image} alt="" className="w-full h-full object-cover rounded-xl" />
             </div>
 
           </div>

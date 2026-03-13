@@ -1,5 +1,5 @@
 import { useState } from "react";
-import BookDemoForm from "../../Components/BookDemoForm";
+import BookDemoForm from "../Forms/BookDemoForm";
 import image from "../../assets/image.png";
 
 function Product() {

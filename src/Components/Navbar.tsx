@@ -17,7 +17,7 @@ function Navbar() {
         <ul className="hidden md:flex gap-12 text-lg font-medium text-gray-700">
           <li>
             <Link
-              to="/#home"
+              to="/"
               className="relative hover:text-black transition
               after:absolute after:left-0 after:-bottom-1 after:h-0.5
               after:w-0 after:bg-black after:transition-all hover:after:w-full"
@@ -50,7 +50,7 @@ function Navbar() {
 
           <li>
             <Link
-              to="/#pricing"
+              to="/pricing"
               className="relative hover:text-black transition
               after:absolute after:left-0 after:-bottom-1 after:h-0.5
               after:w-0 after:bg-black after:transition-all hover:after:w-full"
@@ -65,7 +65,7 @@ function Navbar() {
           <Link to="/contact">
             <button
               className="bg-[#2fa4a9] text-white px-6 py-2.5 rounded-xl
-          shadow-md hover:shadow-lg hover:-translate-y-px transition"
+          shadow-md hover:shadow-lg hover:-translate-y-px transition cursor-pointer"
             >
               Contact Us
             </button>
@@ -86,7 +86,7 @@ function Navbar() {
         <div className="md:hidden bg-white shadow-lg">
           <ul className="flex flex-col items-center gap-6 py-8 text-lg">
             <li>
-              <Link to="/#home" onClick={() => setMenuOpen(false)}>
+              <Link to="/" onClick={() => setMenuOpen(false)}>
                 Home
               </Link>
             </li>
@@ -104,12 +104,12 @@ function Navbar() {
             </li>
 
             <li>
-              <Link to="/#pricing" onClick={() => setMenuOpen(false)}>
+              <Link to="/pricing" onClick={() => setMenuOpen(false)}>
                 Pricing
               </Link>
             </li>
 
-            <Link to="/contact">
+            <Link to="/contact" className="cursor-pointer">
               <button className="bg-[#2fa4a9] text-white px-6 py-2.5 rounded-xl shadow-md hover:shadow-lg transition cursor-pointer">
                 Contact Us
               </button>
